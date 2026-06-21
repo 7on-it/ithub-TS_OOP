@@ -16,7 +16,7 @@ class User {
         User.count++;
     }
     
-    // Получить имя
+    // Узнать имя
     get name(): string {
         return this._name;
     }
@@ -26,7 +26,7 @@ class User {
         this._name = value;
     }
     
-    // Получить логин
+    // Узнать логин
     get login(): string {
         return this._login;
     }
