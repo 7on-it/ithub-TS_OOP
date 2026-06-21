@@ -1,5 +1,5 @@
 class User {
-    // Статическое поле для подсчета экземпляров
+    // Подсчет пользователей User
     static count: number = 0;
     
     private _name: string;
